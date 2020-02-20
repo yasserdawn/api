@@ -3,7 +3,7 @@ $id = $_POST['id'];
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "http://localhost/api/product/delete.php",
+  CURLOPT_URL => "http://rdapi.herokuapp.com/product/delete.php",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
